@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeForge — IDE Online</title>
+    <meta name="description" content="Editor de código online com 39 linguagens." />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body, #root      { height: 100%; width: 100%; overflow: hidden; }
+      body                   { font-family: 'Courier New', monospace; }
+
+      ::-webkit-scrollbar       { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #666; }
+
+      select option,
+      select optgroup { background: #1a1a2e; color: #e0e0e0; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
