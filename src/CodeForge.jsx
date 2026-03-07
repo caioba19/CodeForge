@@ -1133,7 +1133,6 @@ builtins.input = lambda prompt="": (print(prompt, end="", flush=True) or "")
   // ==========================================================================
 
   return (
-  return (
     <div
       style={{ height:"100vh", display:"flex", flexDirection:"column", background:c.bg, color:c.text, fontFamily:"'Courier New',monospace", overflow:"hidden", transition:"background 0.2s" }}
       onClick={closeAllMenus}
